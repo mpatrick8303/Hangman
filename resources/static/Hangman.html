@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Hangman</title>
+		<style type="text.css">
+		
+		
+		</style>
+		
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+		<script src="./HangmanJS.js"></script>
+	</head>
+	
+	<body>
+	
+		<header>
+			<h1>Lets Play Hangman</h1>
+			<button id="restart">Restart The Game</button>
+		</header>
+		
+		<section id = "guessedLeft">
+		
+			<p>Guesses Remaining:</p>
+			<div id = "numberGuess"></div>
+		
+		</section>
+		
+		<section id = "guesses">
+		
+			<p>Guesses</p>
+			<div id = "guessLetters"></div>
+		
+		</section>
+		
+		<section id = "word">
+		
+			<div id="wordL"></div>
+			
+		</section>
+		
+		<section id = "lettersRem">
+			
+			<p>Letters Remaining</p>
+			<div id="letters"></div>
+			<br>
+			
+		</section>
+		
+		<section id = "guess">
+			
+			Enter Your Guess: <input id="guessEntered" type="text" maxlength="1"></input>
+			<button id="enterGuess">Enter</button>
+			<span id="sameLetter"></span>
+
+		
+		</section>
+		
+		<section id = "winWord">
+		
+			<div id="win"></div>
+		
+		</section>
+		
+		<section id="pic">
+			<div id="picture"></div>
+	
+		</section>
+	
+	</body>
+</html>
